@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Ketua</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: hsl(91, 55%, 21%); /* Ubah warna background utama */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .profil-detail {
+            background: #628159; /* Ubah warna background profil */
+            backdrop-filter: blur(12px);
+            padding: 35px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+            max-width: 420px;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+        .profil-detail img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid rgba(255, 255, 255, 0.7);
+            transition: transform 0.3s ease;
+        }
+        .profil-detail img:hover {
+            transform: scale(1.1);
+        }
+        .profil-detail h2 {
+            margin-top: 15px;
+            font-size: 24px;
+            color: white; /* Ganti warna teks judul menjadi putih */
+            font-weight: bold;
+        }
+        .profil-detail p {
+            font-size: 17px;
+            color: white; /* Ganti warna teks deskripsi menjadi putih */
+            margin: 10px 0;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white; /* Ganti warna teks tombol menjadi putih */
+            background: rgba(255, 255, 255, 0.2);
+            transition: background 0.3s, transform 0.2s;
+            font-weight: bold;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .back-btn:hover {
+            background: #106305;
+            transform: translateY(-3px);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section class="profil-detail">
+    <h2>Profil Unit Produksi Koperasi</h2>
+    <img src="4.jpg" alt="Unit Produksi">
+    <p><strong>Nama:</strong>Komsatun</p>
+    <p><strong>NPM:</strong>2220401082</p>
+    <p><strong>Tugas:</strong></p>
+<section>
+<P>Mengelola dan memantau proses produksi olahan kelor (moringa), mulai dari pengolahan bahan baku hingga produk setengah jadi</P>
+<p>Mengatur sumber daya produksi (misalnya tenaga kerja, peralatan, bahan baku) untuk memastikan kelancaran dan efisiensi proses produksi</p>
+<p>Mengawasi kualitas produk dan menjaga agar standar mutu tetap tinggi</p>
+<p>Mencari inovasi dalam produk olahan kelor untuk meningkatkan daya saing produk koperasi</p>
+<p>Menyusun laporan berkala tentang produksi dan perkembangan unit usaha</P>
+</section> 
+    
+    <a href="index.html" class="back-btn">Kembali</a>
+</section>
+
+</body>
+</html>

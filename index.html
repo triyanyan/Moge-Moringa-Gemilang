@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moringa Gemilang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moringa Gemilang</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+        <header>
+            <nav class="navbar">
+                <div class="nav-logo">
+                    <img src="Logo.png" alt="Logo Koperasi" width="80px" alt="">
+                    <span class="brand-name">Moringa Gemilang</span> 
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#produk" class="nav-link">Produk</a></li>
+                    <li><a href="#anggota" class="nav-link">Anggota</a></li>
+                    <li><a href="#kontak" class="nav-link">Kontak</a></li>
+                    <li><a href="#login" class="nav-link login-btn">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <script>
+            // Toggle menu untuk mobile view
+            document.querySelector(".hamburger-menu").addEventListener("click", function() {
+                document.querySelector(".nav-menu").classList.toggle("active");
+            });
+        </script>
+
+<section id="home" class="home-section">
+    <div class="home-content">
+        <h1>Selamat Datang di <span>Moringa Gemilang</span></h1>
+        <p>Menyediakan teh dan bubuk kelor berkualitas terbaik untuk kesehatan Anda.</p>
+        <a href="#produk" class="cta-btn">Lihat Produk</a>
+    </div>
+    <div class="home-image">
+        <img src="foto.png" alt="Produk Moringa Gemilang">
+    </div>
+</section>
+
+    <section id="produk" class="produk-section slide-up">
+        <h2>Produk Kami</h2>
+        <div class="produk-list">
+            <div class="produk-item zoom-in">
+                <img src="teh kelor.jpg" alt="Teh Kelor">
+                <h3>Teh Kelor</h3>
+                <p>Rp 25.000</p>
+                <a href="https://wa.me/6289516948085?text=Halo,%20saya%20ingin%20membeli%20Teh%20Kelor" target="_blank">
+                    <button>Beli Sekarang</button>
+                </a>
+            </div>
+            <div class="produk-item zoom-in">
+                <img src="bubuk kelor.jpg" alt="Bubuk Kelor">
+                <h3>Bubuk Kelor</h3>
+                <p>Rp 50.000</p>
+                <a href="https://wa.me/6289516948085?text=Halo,%20saya%20ingin%20membeli%20Bubuk%20Kelor" target="_blank">
+                    <button>Beli Sekarang</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="anggota" class="anggota-section">
+        <h2>Anggota Koperasi</h2>
+        <ha>Berikut Daftar Anggota Kelompok Kami</ha>
+        <div class="anggota-list">
+    
+            <div class="anggota-item">
+                <img src="1.jpg" alt="Ketua">
+                <div class="anggota-info">
+                    <h3>Ketua</h3>
+                    <p>Memimpin dan mengelola koperasi.</p>
+                    <a href="profil_ketua.html" class="profil-btn">Lihat Profil</a>
+                </div>
+            </div>
+    
+            <div class="anggota-item">
+                <img src="2.jpg" alt="Sekretaris">
+                <div class="anggota-info">
+                    <h3>Sekretaris</h3>
+                    <p>Mengelola administrasi koperasi.</p>
+                    <a href="profil_sekretaris.html" class="profil-btn">Lihat Profil</a>
+                </div>
+            </div>
+    
+            <div class="anggota-item">
+                <img src="3.jpg" alt="Bendahara">
+                <div class="anggota-info">
+                    <h3>Bendahara</h3>
+                    <p>Mengelola keuangan koperasi.</p>
+                    <a href="profil_bendahara.html" class="profil-btn">Lihat Profil</a>
+                </div>
+            </div>
+    
+            <div class="anggota-item">
+                <img src="4.jpg" alt="Unit Produksi">
+                <div class="anggota-info">
+                    <h3>Unit Produksi</h3>
+                    <p>Bertanggung jawab atas produksi.</p>
+                    <a href="profil_unit_produksi.html" class="profil-btn">Lihat Profil</a>
+                </div>
+            </div>
+    
+            <div class="anggota-item">
+                <img src="5.jpg" alt="Unit Pemasaran">
+                <div class="anggota-info">
+                    <h3>Unit Pemasaran</h3>
+                    <p>Mengelola distribusi dan pemasaran.</p>
+                    <a href="profil_unit_pemasaran.html" class="profil-btn">Lihat Profil</a>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+    
+        </div>
+        <!-- Modal (Popup) -->
+        <div id="modal" class="modal">
+        <div class="modal-content">
+             <span class="close" onclick="closeModal()">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+        </div>
+</div>
+
+    </section>
+    
+    <!-- Modal (Popup) -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+    </section>    
+
+    <section id="kontak" class="kontak-section">
+        <div class="kontak-info">
+            <h2>Kontak Kami</h2>
+            <p>Silakan hubungi kami untuk informasi lebih lanjut.</p>
+            <div class="kontak-detail">
+                <p class="bubble"><i class="fas fa-envelope"></i> 
+                    <a href="mailto:moringagemilang@gmail.com">Email: moringagemilang@gmail.com</a>
+                </p>
+                <p class="bubble"><i class="fas fa-phone"></i> 
+                    <a href="tel:+6281234567890"> Nomor: +62 812-3456-7890</a>
+                </p>
+                <p><i class="fas fa-map-marker-alt"></i> Alamat: Jl. Kelor Sehat No. 123, Indonesia</p>
+            </div>
+        </div>
+        
+        <div class="kontak-form">
+            <h3>Kirim Pesan</h3>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Nama Anda" required>
+                <input type="email" name="email" placeholder="Email Anda" required>
+                <textarea name="message" rows="4" placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="btn-kirim">Kirim</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <div id="login" class="login-form fade-in">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <input type="date" placeholder="Tanggal gabung" required>
+            <input type="text" placeholder="Alamat" required>
+            <button type="submit">Masuk</button>
+        </form>
+    </div>
+</body>
+</html>
